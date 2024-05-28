@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS\Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<script>
+    function toggleSidebar() {
+    var sidebar = document.querySelector("aside");
+    if (sidebar.style.left === "-2500px") {
+        sidebar.style.left = "0"; 
+    } else {
+        sidebar.style.left = "-2500px"; 
+    }
+}
+</script>
+</head>
+<body>
+    <header>
+        <div class="atas">
+            <div class="logo">
+                <div class="Dota">Dota</div>
+                <div class="dua">2</div>
+                <div class="Heroes">Heroes</div>
+            </div>
+        <nav>
+            <ul>
+                <li ><a class="navkiri" href="#History">History</a></li>
+                <li><a href="#Skill">Skill</a></li>
+                <li ><a class="navkanan" href="#cosmetic">Cosmestic</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content" id="History">
+            <div class="isicontent">
+                <article>
+                <h1 class="tittle" > Void Spirit</h1>
+                <p> Not even the other spirits claim to understand the mind 
+                    and machinations of the eldest amongst them, <span>Inai the 
+                    Void Spirit</span>. Privy to secrets that would shatter a mortal 
+                    mind, the Void Spirit observes the workings of the universe 
+                    from an unknowable vantage, choosing to let carefully groomed
+                    servants do his bidding only emerging from his Hidden 
+                    Temple into the material plane when he deems that he alone 
+                    can steer the course of reality along its proper path.
+                </p>
+            </article>
+            </div>
+           <div class="contentimage">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+           </div> 
+        </div>
+       
+            <div class="contentskill" id="Skill">
+                <div class="isicontent2">SKILL</div>
+                <div class="skill satu"> <img src="Gambar\skill1.png" alt="">
+                    <p>Void Spirit dispatches a remnant to the target location. The remnant stands watch over the region, facing the direction of his vector. When a unit crosses its gaze, the remnant pulls it in and damages it.
+                        <span> "Inai exists far beyond the scope of a single point in space and time."</span>
+                    </p></div>
+                <div class="skill duah"><img src="Gambar\skill2.png" alt="">
+                    <p>Void Spirit temporarily fades into the aether, creating a number of portals through which he can reassemble himself. Upon exiting a portal, he damages all enemies in the area.
+                        <span> "Inai much prefers to observe our plane free from the confines of corporeal form."</span>
+                    </p></div>
+                <div class="skill tiga"><img src="Gambar\skill3.png" alt="">
+                    <p>Void Spirit wraps himself in a physical attack damage barrier and 
+                        emits a single damaging pulse around him. The barrier gains increased 
+                        damage absorption for each enemy hero the pulse hits. The barrier only
+                         protects against attacks.
+                        <span> "Inai never hesitates to shroud himself in the essence of his 
+                            true self when forced to interact with the mortal plane."</span></div>
+                <div class="skill empat"><img src="Gambar\skill4.png" alt="">
+                    <p>Void Spirit tears a rift through the astral plane to appear at the target
+                        location, attacking all enemies along the path. This attack inflicts a
+                        void mark that slows for 1.25 seconds and then detonates.
+                        <span> "A small step for Inai creates great devastation on the mortal
+                             plane."</span></div>
+            </div>        
+        
+        <div id="cosmetic"></div>
+        <div class="cosmestic" >  COSMETIC</div>
+          <div class="skin" >
+            <div class="skini c1"><img src="Gambar\c1.png" alt=""><h1>Sublime Equilibrium</h1></div>
+            <div class="skini c2"><img src="Gambar\c2.png" alt=""><h1>Hidden Vector</h1></div>
+            <div class="skini c3"><img src="Gambar\c3.png" alt=""><h1>Golden Hidden Vector</h1></div>
+          </div>
+          <button onclick="toggleSidebar()">Lore</button>
+        <aside>    
+            
+            <div class="lore">
+               <img src="Gambar\profilee.jpg" alt="">
+               <p>Inai is the first of the celestials, representing the void.He is known as the 
+                Hidden Ones, and resides in the Hidden Temple, only emerging to take part in the
+                battle of the Ancients on the mortal plane. Still, he is able to create rips of 
+                space in the Astral Plane, which allows him to pass through them and destroy the
+                Astral Plane over and over again. He instructs others, such as Lanaya, to do his
+                bidding, all while remaining hidden to all but a few.
+                Now that he has stepped into the mortal realm, Inai seeks to unite with all the 
+                other celestials in an event he calls the Great Confluence.</p>   
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>DefenseOfTheAncient2Heroes &#169; 2024, Dota2Heroes</p>
+    </footer> 
+    
+</body>
+</html>
