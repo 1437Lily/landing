@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Madimi One',sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(..//Gambar/bguu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: inline;
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+}
+header .atas{
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+  
+    background: white;
+ 
+    
+}
+header .logo{
+    display: flex;
+    font-size: 2em;
+    justify-content: flex-start;
+    width: 100%;
+   
+}
+.Dota{
+    color: #0D1282;
+}
+.dua{
+    color: #EE4266;
+    font-weight: 1000;
+}
+.Heroes{
+    color: #0D1282;
+}
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+    position: relative;
+    right: 40%;
+   
+    
+}
+nav ul li{
+    list-style-type: none;
+    align-items: center;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3C0753;
+    padding-inline: 20px;
+    top: 0;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 1px 1px 50px;
+    
+    
+}
+nav ul li .navkiri{
+    
+    border-bottom-left-radius:10px ;
+}
+nav ul li .navkanan{
+    
+    border-bottom-right-radius:10px ;
+}
+nav ul li a:hover{
+    background-color: white;
+   
+    box-shadow: 0px 0px 50px white;
+    
+}
+main{
+   flex: 1;  
+   width: 100vw;
+   max-width: 1200px;
+   margin-inline: auto;
+   
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+}
+main .content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem 2rem;
+   
+}
+main .content .isicontent{
+    width: 50%;
+    
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px;
+}
+main .content .tittle{
+margin-block: 1rem;
+margin-inline: 1rem;
+font-size: 3.5rem;
+color: black
+
+}
+main .content .isicontent p{
+font-size: 1.2rem;
+line-height: 1.7rem;
+margin-inline: 1rem;
+margin-bottom: 1rem;
+text-align: justify;
+color: black
+}
+main .content .isicontent span{
+    background-color: #7E30E1; 
+}
+main .content .contentimage{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    gap: 2rem 0.5rem;
+    
+ 
+    
+}
+main .content .contentimage .item1{
+    background-image: url(../Gambar/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 15rem;
+    border-radius: 10px;
+    min-width: 40px;
+    box-shadow: 5px 5px 100px ;
+    min-width: 200px;
+}
+main .content .contentimage .item2{
+    background-image: url(../Gambar/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px ;
+    min-width: 200px;
+
+}
+main .content .contentimage .item3{
+    background-image: url(../Gambar/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px ;
+    min-width: 200px;
+}
+.isicontent2{
+    height: 100%;
+    margin-top: 120px;
+    box-shadow: 10px 10px 50px black;
+    text-align: center;
+    font-size: 5em;
+    border-radius: 20px ;
+    color: black;
+    justify-content: center;
+    
+}
+.contentskill{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contentskill .skill{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contentskill .skill img{
+    border-radius: 10px;
+    min-width: 128px;
+    min-height: 128px;
+}
+.contentskill .skill p{
+font-size: 1.2rem;
+line-height: 1.7rem;
+margin-inline: 1rem;
+margin-block: 2rem;
+text-align: center;
+color: black;
+box-shadow: 2px 2px 100px;
+border-radius: 20px;
+}
+.contentskill .skill p span{
+    background-color: rgba(5, 86, 248, 0.512);
+}
+.cosmestic{
+    font-size: 5em;
+    height: 100%;
+    margin-top: 120px;
+    box-shadow: 10px 10px 50px black;
+    text-align: center;
+    font-size: 5em;
+    border-radius: 20px ;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+}
+.skin{
+    display: flex;
+   margin-block: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.skin img{
+    width: 100%;
+    height: 100%;
+   
+}  
+.skin .c1 img{
+    filter: drop-shadow(50px 50px 1px white);
+}
+.skin .c1 h1{
+    margin-block: 2em;
+    text-align: center;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 20px
+    
+}
+.skin .c2 img{
+    filter: drop-shadow(-50px -30px 1px purple);
+}
+.skin .c2 h1{
+    margin-block: 2em;
+    text-align: center;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 20px
+}
+.skin .c3 img{
+    filter: drop-shadow(-50px 50px 1px yellow);
+}
+.skin .c3 h1{
+    margin-block: 2em;
+    text-align: center;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 20px
+}
+aside {
+        width: 300px; 
+        height: 100%; 
+        position: fixed; 
+        top: 6vh; 
+        left: 0;
+        background-color: rgb(20, 25, 96); 
+        box-shadow: 10px 10px 50px black;
+        overflow-x: hidden; 
+        transition: 0.5s; 
+        padding-top: 60px;
+        color: white;
+        text-align: justify;
+        padding: 20px;
+}
+aside img{
+    width: 100%;
+}
+button{
+    position: fixed;
+    top: 50vh;
+    width: 50px;
+    right: 0;
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: none;
+    font-size: 1em;
+    font-weight: 700;
+    font-family:'Madimi One',sans-serif ;
+    cursor: pointer;
+    z-index: 9999;
+    background-color: #0D1282;
+    color: white;
+   
+}
+button:hover{
+    box-shadow: 10px 10px 50px 10px white;
+    transition: 0.5s ease;
+}
+footer{
+    color: #ffffff;
+    background-color: rgb(20, 25, 96);
+    padding: 10px;
+    font-size: 1.6em;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(20, 25, 96);
+}
+@media screen and (max-width: 767px){
+    header .atas{
+        display: block;
+        width: 100vw;
+    }
+    header .logo{
+        justify-content: center;
+    }
+    nav ul {
+        justify-content: center;
+        flex-wrap: nowrap;
+        right: 0;
+        
+    }
+    main{
+        margin-inline: 0;
+        
+    }
+     main .content{
+        display: block;
+        width: 100vw; 
+        align-content: center;
+    }
+    main .content .isicontent{
+        width: 100%;
+    }
+    main .content .isicontent p{
+        padding: 20px;
+    }
+    main .content .isicontent .tittle{
+        
+        text-align: center;
+    }
+    main .content.contentimage {
+        display: block;
+    }
+    .contentskill .skill{
+        display: block;
+        width: 100vw;
+        
+    }    
+    .contentskill .skill img{
+       position: relative;
+       left: 30%;
+    }
+    .contentskill .skill p{
+        text-align: justify;
+        padding: 20px;
+    }
+    .skin{
+        flex-direction: column;
+    }
+    .skini{
+        width: 100%;
+       
+    }
+    .c3 img{
+        position: relative;
+        width: 210px;
+        left: 20%;
+    }
+    .c2 img{
+        width: 320px;
+    }
+    .c1 img{
+        width: 270px;
+    }
+    aside{
+        width: 50%;
+    }
+}
